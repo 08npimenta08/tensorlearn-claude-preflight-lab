@@ -1,0 +1,20 @@
+{
+  "key": "preflight",
+  "title": "Preflight: submit 1 + 1",
+  "minutes": 10,
+  "chapter": "Before the workshop",
+  "writeAllow": [
+    "answer.json"
+  ],
+  "practice": [
+    "preflight.practice"
+  ],
+  "needsAI": false,
+  "brief": "Before the workshop, confirm that your local workspace, GitHub PR and TensorLearn result can complete one round.",
+  "acceptance": [
+    "The answer is a JSON number equal to 2.",
+    "Only answer.json changes.",
+    "The selected PR head has a saved TensorLearn result."
+  ],
+  "recipeIndex": 0
+}
